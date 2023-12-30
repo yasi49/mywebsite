@@ -4,7 +4,7 @@ import * as React from "react"
 import Link from "next/link"
 import Image from "next/image"
 import logo from '@/app/assets/logo_blog.png'
-import Hero from "./Hero"
+
 
 import { cn } from "@/lib/utils"
 // import { Icons } from "@/components/icons"

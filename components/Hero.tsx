@@ -2,7 +2,7 @@ import  Link  from 'next/link'
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import { Mail } from 'lucide-react'
-import heroImage from '../src/app/assets/micky.jpg'
+// import heroImage from '../src/app/assets/micky.jpg'
 
 
 export default function Hero() {
@@ -17,11 +17,11 @@ export default function Hero() {
 
         </Button>
 
-        <Image
+        {/* <Image
         src={heroImage}
         alt="blogs"
         className='w-screen h-screen object-cover object-middle-top opacity-80 absolute top-0 -z-10'
-        />
+        /> */}
       
     </div>
   )

@@ -9,7 +9,7 @@ import {
   export function Avataruser() {
     return (
       <Avatar>
-        <AvatarImage src="/micky.jpg" alt="avatar.img" style={{ opacity: 0.9 }}/>
+        <AvatarImage src="/micky.jpg" alt="avatar.img"/>
         <AvatarFallback>CN</AvatarFallback>
       </Avatar>
     )
